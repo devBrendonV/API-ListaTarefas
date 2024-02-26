@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Content } from "./Componentes/Content";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       alignItems={"center"}
       justifyContent={"center"}
     >
-      Conteudo
+      <Content/>
       <ToastContainer
         position="bottom-left"
         autoClose={2000}
