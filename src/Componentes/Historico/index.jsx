@@ -27,7 +27,6 @@ export const Historico = (prop) => {
       alignItems={"center"}
     >
       {prop.value.lista.map((e, i) => {
-        console.log(e)
           return (
             <ItemLista
               key={i}
